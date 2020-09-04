@@ -1,0 +1,26 @@
+{
+  "name": "greenfootprints-api",
+  "version": "1.0.0",
+  "description": "A simple API built in Node and Express hosted on Heroku",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "npx nodemon --exec npx babel-node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.0",
+    "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": "5.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raythompsonwebdev/greenfootprints-api"
+  },
+  "author": "RayThompWeb",
+  "license": "MIT",
+  "devDependencies": {
+    "cors": "^2.8.5"
+  }
+}
